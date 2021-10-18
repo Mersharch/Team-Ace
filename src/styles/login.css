@@ -1,0 +1,132 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+  height:100%;
+  margin:0;
+  background-color: rgb(101, 146, 190);
+  padding: 15px 400px;
+  z-index: -1;
+}
+
+.form {
+  z-index: 1;
+  background-color:#fff;
+  height: 633px;
+  width: auto;
+  padding: 30px;
+  padding-top: 0;
+box-shadow: -5px 10px 100px #292323;
+}
+
+.logo {
+  width: 350px;
+  height: 300px;
+  margin-left: 60px;
+  margin-bottom: 0;
+}
+
+.log-FI {
+  margin-left: 100px;
+}
+
+label {
+  font-size: 22px;
+}
+
+input {
+  border-width: 2px;
+  border-style: solid;
+  border-color: #ddd;
+  border-radius: 5px;
+  width: 200px;
+  height: 20px;
+  padding: 5px;
+}
+
+.pword {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.cpword {
+  margin-left: 19px;
+  margin-top: 10px;
+}
+
+.mail {
+  margin-left: 42px;
+  margin-top: 10px;
+}
+
+.buttons {
+  margin-top: 20px;
+  margin-left: 50px;
+  padding-left: 80px;
+}
+
+button {
+  width: 250px;
+  margin-bottom: 5px;
+}
+
+.login {
+  border: 1px solid #ddd;
+  background-color: #ddd;
+  border-radius: 12px;
+  height: 45px;
+}
+
+.login-a {
+  border: 1px solid #ddd;
+  background-color: #000;
+  border-radius: 12px;
+  color: #fff;
+  padding: 5px;
+
+
+}
+
+.login-g {
+  border: 2px solid #ddd;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 5px;
+}
+
+.g-logo {
+  width:25px;
+  height: 25px;
+  margin: 3px;
+}
+.a-logo {
+
+  width:30px;
+  height: 30px;
+}
+
+h3 {
+margin-left: 80px;
+}
+
+.l-g {
+  position: relative;
+  top: -6px;
+}
+
+.l-a {
+  position: relative;
+  top: -6px;
+}
+
+.caa {
+  text-decoration: none;
+  color: #3f3535;
+}
+
+button:hover,input:hover {
+  box-shadow: -3px 3px 5px #5f5555;
+
+}
