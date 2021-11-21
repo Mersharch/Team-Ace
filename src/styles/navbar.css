@@ -1,0 +1,17 @@
+
+.navbar {
+}
+
+.nav-list {
+    width:30%;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline;
+    margin-left:80px;
+    font-size: 20px;
+}
+
