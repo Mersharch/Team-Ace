@@ -1,0 +1,25 @@
+
+.Sw-Section {
+    margin-top: 5%;
+}
+
+h1 a:hover {
+    color: goldenrod;
+}
+
+h1 {
+    margin-bottom: 5%;
+}
+
+
+.images {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+}
+
+.swimg1,.swimg2,.swimg3 {
+    background-color: #a0dba0;
+    height: 500px;
+    background-size: contain;
+}

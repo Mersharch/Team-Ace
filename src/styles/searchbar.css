@@ -1,5 +1,5 @@
 .searchbar {
-    width: 200px;
+    width: 400px;
     display: flex;
     border-width: 1;
     background-color: #f5fafa;
@@ -13,6 +13,5 @@
     padding-left: 5%;
     background-color: transparent;
     font-size: 16px;
-    border: 1px solid #f5fafa;
 }
 

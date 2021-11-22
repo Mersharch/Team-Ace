@@ -1,0 +1,16 @@
+
+h1 a:hover {
+    color: goldenrod;
+}
+
+
+.images {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-around;
+}
+
+.fpimg1,.fpimg2,.fpimg3 {
+    background-color: #e0e0ab;
+    height: 500px;
+}

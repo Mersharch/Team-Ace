@@ -1,0 +1,22 @@
+
+h1 a:hover {
+    color: goldenrod;
+}
+
+
+.images {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-around;
+}
+
+.scimg1,.scimg2,.scimg3 {
+    background-color: #8b8bd3;
+    height: 500px;
+    background-size: contain;
+}
+
+.scimg1:hover,.scimg2:hover,.scimg3:hover{
+    box-shadow: 0 7px 20px grey;
+
+}
