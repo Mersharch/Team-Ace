@@ -1,8 +1,8 @@
 import Navbar from "./navbar";
-import SearchBar from "./search";
 import AnCIcons from "./ancicons";
 import '../../styles/header.css';
 import Logo from "./logo";
+import SearchBar from "./search";
 
 
 function Header(){
