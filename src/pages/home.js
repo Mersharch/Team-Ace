@@ -3,6 +3,8 @@ import Sn from '../components/homeComponents/sn';
 import Sw from '../components/homeComponents/Sw';
 import Sc from '../components/homeComponents/Sc';
 import Fp from '../components/homeComponents/fp';
+import Footer from '../components/homeComponents/footer';
+
 
 
 function Home() {
@@ -13,6 +15,7 @@ function Home() {
       <Sw />
       <Sc />
       <Fp />
+      <Footer />
     </div>
   );
 }
