@@ -11,13 +11,21 @@
     margin: 0;
 }
 
-li {
+.nav-tabs {
     display: inline;
-    margin-left:80%;
-    font-size: 20px;
+    margin-left:60%;
+
+
 }
 
-li:hover {
+.home,.about,.contact {
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+}
+
+.home:hover,.about:hover,.contact:hover {
     color: goldenrod;
 }
 
