@@ -23,3 +23,8 @@ h1 {
     height: 500px;
     background-size: contain;
 }
+
+.swimg1:hover,.swimg2:hover,.swimg3:hover{
+    box-shadow: 0 7px 20px grey;
+
+}

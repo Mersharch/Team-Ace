@@ -14,3 +14,7 @@ h1 a:hover {
     background-color: #e0e0ab;
     height: 500px;
 }
+
+.fpimg1:hover,.fpimg2:hover,.fpimg3:hover {
+    box-shadow: 0 7px 20px grey;
+}
