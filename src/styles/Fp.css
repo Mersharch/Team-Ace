@@ -36,3 +36,7 @@ h1 .fp-text {
     height: 500px;
     background-size: cover;
 }
+
+.fpimg1:hover,.fpimg2:hover,.fpimg3:hover {
+    box-shadow: 0 7px 20px grey;
+}

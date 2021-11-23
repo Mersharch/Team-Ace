@@ -35,5 +35,10 @@ h1 .sw-text {
 .swimg1,.swimg2,.swimg3 {
     background-color: #a0dba0;
     height: 500px;
-    background-size: cover;
+    background-size: contain;
+}
+
+.swimg1:hover,.swimg2:hover,.swimg3:hover{
+    box-shadow: 0 7px 20px grey;
+
 }
