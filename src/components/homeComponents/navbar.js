@@ -6,9 +6,9 @@ function Navbar(){
     return(
         <div className="navbar">
             <ul className="nav-list">
-                <li>Home</li>
-                <li>About</li>
-                <li>Contact</li>
+                <li className="nav-tabs"><a href="#" className="home">Home</a></li>
+                <li className="nav-tabs"><a href="#" className="about">About</a></li>
+                <li className="nav-tabs"><a href="#" className="contact">Contact</a></li>
             </ul>
         </div>
     );
