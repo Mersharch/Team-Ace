@@ -1,13 +1,34 @@
+.Sc-Section {
+    margin-top: 5%;
+}
 
-h1 a:hover {
-    color: #daa520;
+h1 {
+    margin-bottom: 5%;
+}
+
+h1 .sc-text:hover {
+    color: goldenrod;
+
+
+h1 .sc-text {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 80%;
+    background-color: #181717;
+    align-items: center;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 20px;
 }
 
 
 .images {
     display: grid;
     grid-template-columns: 30% 30% 30%;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .scimg1,.scimg2,.scimg3 {
@@ -16,7 +37,4 @@ h1 a:hover {
     background-size: contain;
 }
 
-.scimg1:hover,.scimg2:hover,.scimg3:hover{
-    box-shadow: 0 7px 20px grey;
 
-}

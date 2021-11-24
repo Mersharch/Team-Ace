@@ -7,14 +7,14 @@
     background-size: contain;
 }
 
-button {
+.prev-arr,.next-arr {
     background-color: transparent;
     border-color: transparent;
     color: white;
     font-size: 30px;
 }
 
-a {
+.sn-text {
     font-size: 20px;
     font-weight: 600;
     color: black;
