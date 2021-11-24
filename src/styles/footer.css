@@ -1,0 +1,40 @@
+.footer{
+    background-color: rgb(231, 229, 229);
+    margin-top: 5%;
+    padding-top: 1%;
+}
+
+h1 .text1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+   
+}
+
+.slist{
+    display:inline;
+  
+}
+
+.align{
+    display:flex;
+   justify-content: space-evenly;
+}
+
+.text2,.text3,.text4{
+    text-align: left;
+    margin-left: 0.8%;  
+    
+}
+
+.text5{
+    text-align: center;
+    padding-top: 2%;
+}
+
+.last{
+    background-color: rgb(224, 207, 181);
+    padding-bottom: 1.5%;
+    margin-top: 3%;
+}
+
+
