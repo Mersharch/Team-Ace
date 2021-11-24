@@ -1,5 +1,5 @@
 import '../styles/loginstyle.css';
-import Header from '../components/homeComponents/header';
+
 
 
 function LogIn() {
