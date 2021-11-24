@@ -38,4 +38,7 @@ h1 .sc-text {
     background-size: contain;
 }
 
+.scimg1:hover,.scimg2:hover,.scimg3:hover{
+    box-shadow: 0 7px 20px grey;
 
+}
