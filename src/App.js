@@ -1,14 +1,17 @@
-import 'bulma/css/bulma.css';
 import './App.css';
+import { BrowserRouter as Router, Routes , Route } from 'react-router-dom';
 import Home from './pages/home'
 
 
 function App() {
   return (
-    <div className="App">
-      <Home />
-
-    </div>
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
