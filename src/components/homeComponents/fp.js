@@ -5,7 +5,7 @@ import '../../styles/Fp.css';
 function Fp() {
     return (
         <div className="Fp-Section">
-            <h1><a href="#" className="fp-text"> Featured Products </a></h1>
+            <h1><a href="/" className="fp-text"> Featured Products </a></h1>
             <div className="images">
 
                 <img src="https://images.unsplash.com/photo-1580910530751-a4d68d339cb4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjZ8fGxhZGllcyUyMGNsb3RoZXN8ZW58MHwxfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="image1" className="fpimg1" />
