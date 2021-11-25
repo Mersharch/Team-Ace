@@ -1,4 +1,5 @@
 import '../../styles/footer.css';
+import { BsFacebook,BsWhatsapp,BsInstagram,BsTwitter,BsYoutube } from "react-icons/bs";
 
 const Footer = () => {
     return ( 
@@ -33,8 +34,14 @@ const Footer = () => {
            
            <div className="last">
             <h3 className="text5">Follow US</h3>
-            </div>
             
+            <BsFacebook className="icons" />
+            <BsWhatsapp className="icons"/>
+            <BsInstagram className="icons"/>
+            <BsTwitter className="icons"/>
+            <BsYoutube className="icons"/>
+    
+            </div>
         </div>
      );
 }

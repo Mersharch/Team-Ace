@@ -2,10 +2,12 @@ import './App.css';
 import Card from './components/prods/card';
 
 
+
 function App() {
   return (
     <div className="App">
       <Card />
+
     </div>
   );
 }
