@@ -1,12 +1,12 @@
+import 'bulma/css/bulma.css';
 import './App.css';
-import Card from './components/prods/card';
-
+import Home from './pages/home'
 
 
 function App() {
   return (
     <div className="App">
-      <Card />
+      <Home />
 
     </div>
   );
