@@ -1,10 +1,10 @@
-body{
+.main-container{
     background-color: blue;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 100vh;
+    height: 140vh;
     width: 100%;
     background-image: url("https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZmFzaGlvbiUyMG1vZGVsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60");
     background-size: cover;
@@ -14,19 +14,14 @@ body{
    
   }
   
-  h1{
+  .h1{
     text-align: center;
     color: white;
     font-size: 3rem;
     text-shadow: 3px 1px 4px rgba(0,0,0,0.6);
   }
   
-  p.subtitle{
-    color: white;
-    text-align: center;
-    font-size: 1.5rem;
-    text-shadow: 3px 1px 4px rgba(0,0,0,0.6);
-  }
+  
   
   .contact-container{
     width: 1200px;
@@ -34,7 +29,7 @@ body{
     overflow: hidden;
     padding: 10px;
     display: flex;
-    backdrop-filter: blur(15px); 
+    backdrop-filter: blur(5px); 
     border: 1px solid rgba(255,255,255,.2);
     -webkit-box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.75);
@@ -52,13 +47,13 @@ body{
     flex-direction: column;
   }
   
-  h4{
+  .h4{
     font-size: 2rem;
     font-weight: 500;
     margin: 0;
   }
   
-  p {
+  .p {
     color: rgba(255,255,255,.7);
     font-size: 1.5rem;
     font-weight: 300;
@@ -85,7 +80,7 @@ body{
     
   }
   
-  a{
+  .a{
     cursor: pointer;
     margin-top: 100px;
     
@@ -170,7 +165,7 @@ body{
     padding-right: 0;
   }
   
-  button{
+  .button{
     display: flex;
     width: 200px;
     height: 60px;

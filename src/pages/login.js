@@ -6,7 +6,7 @@ function LogIn() {
     return ( 
        
        
-       <form>
+       <form className="login-form">
            <div className="form-inner">
                <h2>Sign in to your Account</h2>
                <div className="form-group">
@@ -15,14 +15,14 @@ function LogIn() {
                </div>
                <div className="form-group">
                    <label htmlFor="name">Password:</label>
-                   <input type="password" name="password" id="password"/>
+                   <input className="login-input" type="password" name="password" id="password"/>
                    <div className="forgotPs">
                    <p>Forgot Password?</p>
                    </div>
                    
                    <div className="rmb">
                     
-                       <input type="checkbox"/><span>Remember me</span>
+                       <input className="login-input" type="checkbox"/><span>Remember me</span>
                                           
                         
                    </div>
