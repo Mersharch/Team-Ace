@@ -1,4 +1,5 @@
 import '../styles/loginstyle.css';
+import { Link } from 'react-router-dom';
 
 
 
@@ -20,7 +21,7 @@ function LogIn() {
                     </div>
                     <div className="form-group">
                         <label htmlFor="name">Password:</label>
-                        <input className="login-input" type="password" name="password" id="password"/>
+                        <input  type="password" name="password" id="password"/>
                         <div className="forgotPs">
                         <p>Forgot Password?</p>
                         </div>
@@ -38,7 +39,7 @@ function LogIn() {
                         <p>Don't have an Account?</p>
                         </div>
 
-                        <button type="submit" >Create account</button>
+                        <Link to="/signup" >Create account</Link>
 
 
                         

@@ -4,6 +4,7 @@ import Home from './pages/home';
 import About from './pages/about';
 import Contact from './pages/contact';
 import LogIn from './pages/login';
+import SignUp from './pages/signup';
 
 
 
@@ -16,6 +17,8 @@ function App() {
           <Route exact path="/about" element={<About />} />
           <Route exact path="/contact" element={<Contact />} />
           <Route exact path="/signin" element={<LogIn />} />
+          <Route exact path="/signup" element={<SignUp />} />
+
 
 
         </Routes>
