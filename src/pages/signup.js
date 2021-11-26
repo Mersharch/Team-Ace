@@ -11,13 +11,13 @@ function SignUp() {
             <p style={{color:"#808080"}}>Already have an account? Login</p>
             <form>
             <label>First Name</label>    
-            <input type="First name" class="input-box" placeholder=""/>
+            <input type="First name" className="input-box" placeholder=""/>
             <label>Last Name</label>
-            <input type="Last name" class="input-box" placeholder=""/>
+            <input type="Last name" className="input-box" placeholder=""/>
             <label>Email</label>
-            <input type="Email" class="input-box" placeholder=""/>
+            <input type="Email" className="input-box" placeholder=""/>
             <label>Password(Use letters and numbers)</label>
-            <input type="Password"class="input box" placeholder=""/>
+            <input type="Password"className="input box" placeholder=""/>
             <label>Confirm Password</label>
             <input type="password" placeholder=""/>
             <input type="button" value="REGISTER"/>
