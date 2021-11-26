@@ -1,7 +1,7 @@
 
 .navbar {
-    padding-right: 10px;
-    margin-right: -5%;
+    position: absolute;
+    left: 10%;
 }
 
 .nav-list {
