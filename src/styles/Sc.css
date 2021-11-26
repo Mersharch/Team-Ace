@@ -28,14 +28,14 @@ h1 .sc-text {
 
 .images {
     display: grid;
-    grid-template-columns: 30% 30% 30%;
+    grid-template-columns: 33% 33% 33%;
     justify-content: space-evenly;
 }
 
 .scimg1,.scimg2,.scimg3 {
     background-color: #8b8bd3;
     height: 500px;
-    background-size: contain;
+    background-size: cover;
 }
 
 .scimg1:hover,.scimg2:hover,.scimg3:hover{

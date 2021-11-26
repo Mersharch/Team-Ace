@@ -5,7 +5,7 @@ import '../../styles/Sc.css';
 function Sc() {
     return (
         <div className="Sc-Section">
-            <h1><a href="#" className="sc-text"> Shop Clothes </a></h1>
+            <h1><a href="/" className="sc-text"> Shop Clothes </a></h1>
             <div className="images">
 
                 <img src="https://images.unsplash.com/photo-1573497160825-0d94a2724d40?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXxLT0Z3amJ6WkJVVXx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="image1" className="scimg1" />
