@@ -1,7 +1,16 @@
-* {
+.l-container {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    display: flex;
+
+}
+
+.side-img{
+    width: 40%;
+    height: 100vh;
+    background-image: url("https://images.unsplash.com/photo-1532453288672-3a27e9be9efd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NHxLT0Z3amJ6WkJVVXx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
 
 }
 
@@ -139,6 +148,9 @@ input{
     height:fit-content;
   }
 
+  .form-inner{
+      margin-left: 100%;
+  }
 
 
 

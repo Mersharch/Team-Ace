@@ -29,16 +29,16 @@ function Contact() {
                         <span>Text</span>
                     </div>
                     <div className="social-media">
-                        <a className="a">
+                        <a className="a" href="/">
                             icon
                         </a>
-                        <a className="a">
+                        <a className="a" href="/">
                             icon
                         </a>
-                        <a className="a">
+                        <a className="a" href="/">
                             icon
                         </a>
-                        <a className="a">
+                        <a className="a" href="/">
                             icon
                         </a>
                         
