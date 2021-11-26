@@ -1,5 +1,6 @@
 import { AiOutlineUser } from "react-icons/ai";
 import '../../styles/ancicons.css'
+import { Link } from "react-router-dom";
 
 
 function AnCIcons(){
@@ -11,29 +12,29 @@ function AnCIcons(){
                     <div className="dropdown-content">
 
                         <hr className="dropdown-divider" /> 
-                        <a href="/" className="dropdown-item">
+                        <Link to="/" className="dropdown-item">
                             Bag
-                        </a>
+                        </Link>
 
                         <hr className="dropdown-divider" />
-                        <a href="/" className="dropdown-item">
+                        <Link to="/" className="dropdown-item">
                             Saved Items
-                        </a>
+                        </Link>
 
                         <hr className="dropdown-divider" />
-                        <a href="/" className="dropdown-item">
+                        <Link to="/" className="dropdown-item">
                             Orders
-                        </a>
+                        </Link>
 
                         <hr className="dropdown-divider" />
-                        <a href="/" className="dropdown-item">
+                        <Link to="/" className="dropdown-item">
                             Account
-                        </a>
+                        </Link>
 
                         <hr className="dropdown-divider" />
-                        <a href="/signin" className="dropdown-item">
+                        <Link to="/signin" className="dropdown-item">
                             Sign in
-                        </a>
+                        </Link>
                         
                     
                     </div>
