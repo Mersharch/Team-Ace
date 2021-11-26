@@ -42,3 +42,9 @@ input[type=button] {
     /* ... other rules ... */
     cursor:pointer;
 }
+
+.Register{
+    margin-top: 10%;
+    margin-left: 3%;
+
+}
