@@ -19,7 +19,7 @@ function About() {
 
          <body>The vision of Just Hair and Fashion Wear is to bring out the beauty in our customers because the first step in loving ourselves is loving how we look, and we thrive in making sure that the objective is reached.</body>
 
-        <img src="https://t3.ftcdn.net/jpg/03/14/09/50/360_F_314095077_iJtVBwPTvbd1fdJIKi6Sub3XNkT5Qnfy.jpg" className="nicepic"/>
+        <img src="https://t3.ftcdn.net/jpg/03/14/09/50/360_F_314095077_iJtVBwPTvbd1fdJIKi6Sub3XNkT5Qnfy.jpg" className="nicepic" alt="img" />
         <Footer />
       </div>
       
