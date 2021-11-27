@@ -4,9 +4,9 @@ function Sn() {
     return (
         <div className="Sn-Section">
 
-            <button> &lt; </button>
-            <a href="#">Shop Now!</a>
-            <button> &gt; </button>
+            <button className="prev-arr"> &lt; </button>
+            <a href="/" className="sn-text">Shop Now!</a>
+            <button className="next-arr"> &gt; </button>
         
         </div>
     );

@@ -3,7 +3,7 @@
     margin-top: 5%;
 }
 
-h1 a:hover {
+h1 .sw-text:hover {
     color: goldenrod;
 }
 
@@ -11,15 +11,34 @@ h1 {
     margin-bottom: 5%;
 }
 
+h1 .sw-text {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 80%;
+    background-color: #181717;
+    align-items: center;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 20px;
+}
+
 
 .images {
     display: grid;
     grid-template-columns: auto auto auto;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .swimg1,.swimg2,.swimg3 {
     background-color: #a0dba0;
     height: 500px;
     background-size: contain;
+}
+
+.swimg1:hover,.swimg2:hover,.swimg3:hover{
+    box-shadow: 0 7px 20px grey;
+
 }

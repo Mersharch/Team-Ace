@@ -3,9 +3,9 @@
     flex-direction: row;
     flex: 1;
     margin-top: 5px;
-    justify-content: space-between;
+    justify-content:flex-start;
     border-bottom: 2px solid #ece7e7;
-    padding: 10px 0;
+    padding: 10px 10px;
     position: sticky;
     top: 0;
     background-color: white;
