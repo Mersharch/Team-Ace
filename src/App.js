@@ -9,8 +9,6 @@ import SignUp from './pages/signup';
 
 
 
-
-
 function App() {
   return (
     <Router>
@@ -22,7 +20,6 @@ function App() {
           <Route exact path="/signin" element={<LogIn />} />
           <Route exact path="/signup" element={<SignUp />} />
           
-
 
 
         </Routes>
