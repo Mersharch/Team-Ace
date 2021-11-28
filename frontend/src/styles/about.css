@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: -50%;
+}
+
+h2{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 5%;
+     
+}
+
+body{
+    text-align: left;
+    font-size: 120%;
+    font-style: italic;
+   
+}
+
+.nicepic{
+    display: -ms-inline-grid;
+    width: 100%;
+    height: 60%;
+    image-resolution: from-image 500dpi;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    
+}
+
+

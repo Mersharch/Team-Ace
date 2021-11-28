@@ -1,5 +1,7 @@
 
 .navbar {
+    position: absolute;
+    left: 10%;
 }
 
 .nav-list {
@@ -9,9 +11,21 @@
     margin: 0;
 }
 
-li {
+.nav-tabs {
     display: inline;
-    margin-left:80px;
+    margin-left:60%;
+
+
+}
+
+.home,.about,.contact {
     font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+}
+
+.home:hover,.about:hover,.contact:hover {
+    color: goldenrod;
 }
 

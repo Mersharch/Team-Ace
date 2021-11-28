@@ -1,0 +1,18 @@
+.card-container {
+    border: 1px solid black;
+    width: 25%;
+    margin: 10%;
+    height: 500px;
+}
+
+.prod-img {
+    width: 100%;
+    height: 400px;
+    background-color: blue;
+}
+
+.prod-details {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}

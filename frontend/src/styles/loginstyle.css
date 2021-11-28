@@ -1,0 +1,154 @@
+.l-container {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+
+}
+
+.side-img{
+    width: 40%;
+    height: 100vh;
+    background-image: url("https://images.unsplash.com/photo-1532453288672-3a27e9be9efd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NHxLT0Z3amJ6WkJVVXx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+
+}
+
+input{
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    display: flex;
+    height:5%;
+    width: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .forgotPs{
+      display: flex;
+      justify-content: flex-end;
+      border: none;
+  }
+
+  .rmb{
+      display: flex;
+      margin-top:1%;
+      flex-direction: row;
+      align-items: center;
+  }
+
+  
+
+  .dontHaveAcc{
+      margin-top: 30px;
+  }
+  
+  .login-form{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .login-form:after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: 1;
+    
+  
+  
+  
+  }
+  
+  .login-form .form-inner{
+    position: relative;
+    display: block;
+    padding: 30px;
+    z-index: 2;
+  }
+
+  .login-form .form-inner h2{
+      color: black;
+      font-size: 28px;
+      font-weight: 500;
+      margin-bottom: 30px;
+      display: flex;
+      
+  }
+
+  .login-form .form-inner .form-group{
+      display: block;
+      width: 300px;
+      margin-bottom: 15px;
+      background-color: white;
+     
+
+  }
+
+  .form-inner .form-group label{
+      display: flex;
+      color: black;
+      font-size: 20px;      
+      margin-bottom: 5px;
+      transition: 0.4s;
+
+  }
+
+  .form-inner .form-group:focus-within label{
+      color: black;
+  }
+  
+  .login-form .form-inner .form-group input{
+      display: block;
+      width: 100%;
+      padding: 10px 15px;
+      transition: 0.4s;
+  }
+
+  .login-form .form-inner .form-group input:focus{
+      box-shadow: 0px 0px 3px rgb(10, 10, 10);
+
+  }
+
+  button[type="submit"]{
+      display: inline-block;
+      padding: 10px 15px;
+      margin-top: 20px;
+      width: 200px; 
+      background-size: 200px;
+      background-position: 0px;  
+      transition: 0.4s;
+      color:rgba(15, 15, 15, 0.748);
+      font-size: large;
+      font-weight: 700;
+      cursor: pointer;
+      
+  }
+
+  button[type="submit"]:hover{
+      background-position: 100% 0%;
+
+  }
+
+  .login-form .form-inner .form-group input[type="checkbox"]{
+    width:fit-content;
+    height:fit-content;
+  }
+
+  .form-inner{
+      margin-left: 100%;
+  }
+
+
+
+ 
+  
+ 
