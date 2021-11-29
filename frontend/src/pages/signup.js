@@ -1,10 +1,19 @@
 import '.././styles/signup.css';
 import { Link } from 'react-router-dom';
+import { useState } from 'react';
 
 
 
 
 function SignUp() {
+    const [user, setUser] = useState({
+        Firstname: "",
+        Lastname: "",
+        Email: "",
+        Password: ""
+
+    });
+    
     return (
         <div className="l-container">
         <div className="side-img"></div>
