@@ -40,6 +40,11 @@ const productSchema = new Schema({
     category: {
         type: String,
         required: true,
+    },
+
+    Isfeatured: {
+        type: Boolean,
+        default: false,
     }
 }, {
     timestamps: true,
