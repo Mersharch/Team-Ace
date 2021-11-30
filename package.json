@@ -1,6 +1,7 @@
 {
   "name": "just-hair-and-fashion-wear",
   "version": "0.1.0",
+  "proxy": "https://justhairandfashionwear.herokuapp.com/",
   "private": true,
   "dependencies": {
     "@react-icons/all-files": "^4.1.0",
