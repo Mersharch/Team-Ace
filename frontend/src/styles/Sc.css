@@ -1,5 +1,7 @@
 .Sc-Section {
     margin-top: 5%;
+    width: 100%;
+
 }
 
 h1 {
@@ -36,6 +38,9 @@ h1 .sc-text {
     background-color: #8b8bd3;
     height: 500px;
     background-size: cover;
+    width: 90%;
+    border-radius: 10%;
+
 }
 
 .scimg1:hover,.scimg2:hover,.scimg3:hover{
