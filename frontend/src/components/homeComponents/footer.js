@@ -21,14 +21,14 @@ const Footer = () => {
 
             <div className="slist">
                 <h2 className="text2">SUPPORT</h2>
-                <p className="text2">< Link to="/contact"> Contact Us </Link></p>
+                <p className="text2">< Link to="/contact" className="linkstyle"> Contact Us </Link></p>
                 <p className="text3">Terms of Use</p>
                 <p className="text4">Privacy Policy</p> 
             </div>
 
             <div className="slist">
                 <h2 className="text2">COMPANY</h2>
-                <p className="text2">< Link to="/about">About Us</Link></p>
+                <p className="text2">< Link to="/about" className="linkstyle">About Us</Link></p>
                 <p className="text3">Partnership</p>
                 <p className="text4">Newletters</p> 
             </div>
@@ -39,7 +39,7 @@ const Footer = () => {
             
             <BsFacebook className="icons" />
             <BsWhatsapp className="icons"/>
-            <BsInstagram className="icons"/>
+            <a href="https://www.instagram.com/justhairextensions4u/" className="insta" target="_blank"> <BsInstagram className="icons"/> </a> 
             <BsTwitter className="icons"/>
             <BsYoutube className="icons"/>
     
