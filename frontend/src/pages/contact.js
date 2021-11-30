@@ -27,7 +27,7 @@ function Contact() {
                     </div>
                     <div className="icon-text">
                     <CgMail className="icon"/>
-                        <span>Email address</span>
+                        <span>Email address here</span>
                     </div>
                     <div className="icon-text">
                     <HiLocationMarker className="icon"/>
