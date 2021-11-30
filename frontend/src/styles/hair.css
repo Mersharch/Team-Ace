@@ -1,0 +1,36 @@
+.wigs-div{
+    display: flex;
+
+}
+
+.hsidebar {
+    background-color: rgb(26, 25, 25);
+    height: 695px;
+    max-height: 900px;
+    position: fixed;
+    justify-content: center;
+    padding-inline: 3%;
+}
+
+
+.wigs {
+    color: white;
+}
+
+.hul {
+    list-style-type: none;
+    width: fit-content;
+    padding: 0;
+    margin-top: 10%;
+}
+
+.hli{
+    list-style: none;
+    margin-top: 70%;
+}
+
+.hlinks {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: goldenrod;
+}
