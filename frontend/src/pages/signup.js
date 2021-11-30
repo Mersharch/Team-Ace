@@ -1,10 +1,27 @@
 import '.././styles/signup.css';
 import { Link } from 'react-router-dom';
+import { useState } from 'react';
 
 
 
 
 function SignUp() {
+
+    const [user, setUser] = useState({
+        Firstname:"",
+        Lastname:"",
+        Email:"",
+        Password:""
+    });
+
+    const handlelastname = (e) => (
+        setUser({
+            Lastname:e.target.value
+        })
+    )
+
+    
+
     return (
         <div className="l-container">
         <div className="side-img"></div>
@@ -13,16 +30,16 @@ function SignUp() {
             <p style={{color:"#808080"}}>Already have an account? <Link to="/signin">Login</Link></p>
             <form>
             <label>First Name</label>    
-            <input type="First name" className="input-box" placeholder=""/>
+            <input type="First name" className="input-box" placeholder="" onChange={(val)=> setUser({Firstname:val})} />
             <label>Last Name</label>
-            <input type="Last name" className="input-box" placeholder=""/>
+            <input type="Last name" className="input-box" placeholder="" onChange={(e)=> handlelastname(e) } />
             <label>Email</label>
-            <input type="Email" className="input-box" placeholder=""/>
+            <input type="Email" className="input-box" placeholder="" onChange={(val)=> setUser({Email:val})} />
             <label>Password(Use letters and numbers)</label>
-            <input type="Password"className="input box" placeholder=""/>
+            <input type="Password"className="input box" placeholder="" onChange={(val)=> setUser({Password:val})} />
             <label>Confirm Password</label>
             <input type="password" placeholder=""/>
-            <input className="Register" type="button" value="REGISTER"/ >
+            <button className="Register" type="submit" value="submit" > Create Account </button>
 
             </form>
 

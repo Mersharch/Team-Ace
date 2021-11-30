@@ -8,14 +8,14 @@ function About() {
   return (
       <div className="About">
         <Header />
-        <h1 style={{color:"#000"}}>ABOUT US</h1>
+        <h1 className="a-u" style={{color:"#000"}}>ABOUT US</h1>
         
-         <body>
+         <p className="body">
           Founded in 2018 "Just Hair and Fashion Wear" is a business enterprise aimed at providing women and young girls the necessary confidence to feel good in any kind of clothes or hairstyle of their choice. 
           Our products are of the highest quality and leaves customers feeling <b>beautiful and confident</b>. Our products are affordable and accessible to all.
-        </body> 
+        </p> 
 
-        <h2 style={{color:"#000"}}>VISION STATEMENT</h2>
+        <h2 className="v-s" style={{color:"#000"}}>VISION STATEMENT</h2>
 
          <body>The vision of Just Hair and Fashion Wear is to bring out the beauty in our customers because the first step in loving ourselves is loving how we look, and we thrive in making sure that the objective is reached.</body>
 

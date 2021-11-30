@@ -21,7 +21,7 @@ const Footer = () => {
 
             <div className="slist">
                 <h2 className="text2">SUPPORT</h2>
-                <p className="text2"> About</p>
+                <p className="text2">< Link to="/contact"> Contact Us </Link></p>
                 <p className="text3">Terms of Use</p>
                 <p className="text4">Privacy Policy</p> 
             </div>
