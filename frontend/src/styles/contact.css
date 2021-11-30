@@ -1,14 +1,16 @@
+
+  
 .main-container{
-    background-color: blue;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 140vh;
+    background-image: url("https://images.unsplash.com/photo-1638043882831-73d9c842577d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=600&q=60");
+    background-size: contain;
+    height: 100%;
     width: 100%;
-    background-image: url("https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZmFzaGlvbiUyMG1vZGVsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60");
-    background-size: cover;
-  
+    
     
     
    
@@ -16,7 +18,7 @@
   
   .h1{
     text-align: center;
-    color: white;
+    color: black;
     font-size: 3rem;
     text-shadow: 3px 1px 4px rgba(0,0,0,0.6);
   }
@@ -25,6 +27,7 @@
   
   .contact-container{
     width: 1200px;
+    height: 50%;
     border-radius: 15px;
     overflow: hidden;
     padding: 10px;
@@ -63,9 +66,13 @@
   
   .icon-text{
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
     margin-bottom: 2rem;
+    margin-top: 20px;
+  }
+
+  .icon{
+    padding-right: 20px;
+    color: yellow;
   }
   
   span{
@@ -77,7 +84,20 @@
     display: flex;
     width: 50%;
     justify-content: space-between;
+    margin-top: 60%;
     
+  }
+
+  .social-media .icons{
+    margin-right: 40px;
+  }
+
+  .social-media .icons:hover{
+    color: yellow;
+    width: 20px;
+    height: 20px;
+    border-radius: 20;
+    transition: .1s;
   }
   
   .a{

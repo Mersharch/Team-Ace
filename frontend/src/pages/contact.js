@@ -1,4 +1,8 @@
 import Footer from '../components/homeComponents/footer';
+import { BsFacebook,BsWhatsapp,BsInstagram,BsTwitter,BsYoutube } from "react-icons/bs";
+import {BiPhoneCall} from "react-icons/bi";
+import {CgMail} from "react-icons/cg";
+import {HiLocationMarker} from "react-icons/hi";
 import Header from '../components/homeComponents/header';
 import '../styles/contact.css';
 
@@ -8,7 +12,8 @@ function Contact() {
         <div>
          <Header />
 
-        <div className="main-container">
+        <div
+            className="main-container">
             <h1 className="h1">Contact Us</h1>
             <div className="contact-container">
                 <div className="contact-info">
@@ -17,31 +22,24 @@ function Contact() {
                     </h4>
                     <p className="p">Fill up the form and then click send</p>
                     <div className="icon-text">
-                    <i class="fa fa-phone" aria-hidden="true"></i>
-                        <span>Text</span>
+                    <BiPhoneCall className="icon"/>
+                        <span>+233 24 431 1059</span>
                     </div>
                     <div className="icon-text">
-                    <i class="fa fa-phone" aria-hidden="true"></i>
-                        <span>Text</span>
+                    <CgMail className="icon"/>
+                        <span>Email address</span>
                     </div>
                     <div className="icon-text">
-                    <i class="fa fa-phone" aria-hidden="true"></i>
-                        <span>Text</span>
+                    <HiLocationMarker className="icon"/>
+                        <span>No. 4 Pretoria Avenue East Legon</span>
                     </div>
                     <div className="social-media">
-                        <a className="a" href="/">
-                            icon
-                        </a>
-                        <a className="a" href="/">
-                            icon
-                        </a>
-                        <a className="a" href="/">
-                            icon
-                        </a>
-                        <a className="a" href="/">
-                            icon
-                        </a>
-                        
+                        <a href="https://www.instagram.com/justhairextensions4u/" className="insta" target="_blank"><BsFacebook className="icons" /></a>
+                        <a href="https://www.instagram.com/justhairextensions4u/" className="insta" target="_blank"><BsWhatsapp className="icons"/></a>
+                        <a href="https://www.instagram.com/justhairextensions4u/" className="insta" target="_blank"> <BsInstagram className="icons"/> </a> 
+                        <a href="https://www.instagram.com/justhairextensions4u/" className="insta" target="_blank"><BsTwitter className="icons"/></a> 
+                        <a href="https://www.instagram.com/justhairextensions4u/" className="insta" target="_blank"><BsYoutube className="icons"/></a> 
+                            
                     </div>
                     
                 </div>
