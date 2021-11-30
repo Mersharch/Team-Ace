@@ -1,5 +1,7 @@
 import '../../styles/footer.css';
 import { BsFacebook,BsWhatsapp,BsInstagram,BsTwitter,BsYoutube } from "react-icons/bs";
+import { Link } from 'react-router-dom';
+
 
 const Footer = () => {
     return ( 
@@ -19,14 +21,14 @@ const Footer = () => {
 
             <div className="slist">
                 <h2 className="text2">SUPPORT</h2>
-                <p className="text2">About</p>
+                <p className="text2">< Link to="/contact"> Contact Us </Link></p>
                 <p className="text3">Terms of Use</p>
                 <p className="text4">Privacy Policy</p> 
             </div>
 
             <div className="slist">
                 <h2 className="text2">COMPANY</h2>
-                <p className="text2">About Us</p>
+                <p className="text2">< Link to="/about">About Us</Link></p>
                 <p className="text3">Partnership</p>
                 <p className="text4">Newletters</p> 
             </div>
