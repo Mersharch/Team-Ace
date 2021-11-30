@@ -1,6 +1,7 @@
 
 .Sw-Section {
     margin-top: 5%;
+    width: 100%;
 }
 
 h1 .sw-text:hover {
@@ -35,7 +36,9 @@ h1 .sw-text {
 .swimg1,.swimg2,.swimg3 {
     background-color: #a0dba0;
     height: 500px;
-    background-size: contain;
+    background-size: cover;
+    width: 90%;
+    border-radius: 10%;
 }
 
 .swimg1:hover,.swimg2:hover,.swimg3:hover{
