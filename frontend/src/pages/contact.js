@@ -20,7 +20,7 @@ function Contact() {
                     <h4 className="h4">
                         Contact Information
                     </h4>
-                    <p className="p">Fill up the form and then click send</p>
+                    <p className="p">Fill up the form and then click send your concern</p>
                     <div className="icon-text">
                     <BiPhoneCall className="icon"/>
                         <span>+233 24 431 1059</span>
