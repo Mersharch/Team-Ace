@@ -5,6 +5,8 @@ import About from './pages/about';
 import Contact from './pages/contact';
 import LogIn from './pages/login';
 import SignUp from './pages/signup';
+import Hair from './pages/hair';
+import Clothes from './pages/clothes';
 
 
 
@@ -19,6 +21,10 @@ function App() {
           <Route exact path="/contact" element={<Contact />} />
           <Route exact path="/signin" element={<LogIn />} />
           <Route exact path="/signup" element={<SignUp />} />
+          <Route exact path="/hair" element={<Hair />} />
+          <Route exact path="/clothes" element={<Clothes />} />
+
+
           
           
 

@@ -3,10 +3,10 @@
 
 
 
-function Wigs() {
+function Hair() {
   return (
     <div className="wigs-div">
-        <h1 className="wigs">WIGS</h1>
+        <h1 className="wigs">HAIR</h1>
         <div className="wigs-container">
               
         </div>
@@ -14,4 +14,4 @@ function Wigs() {
   );
 }
 
-export default App;
+export default Hair;
