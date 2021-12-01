@@ -39,7 +39,7 @@ const Footer = () => {
             
             <BsFacebook className="icons" />
             <BsWhatsapp className="icons"/>
-            <a href="https://www.instagram.com/justhairextensions4u/" className="insta" target="_blank"> <BsInstagram className="icons"/> </a> 
+            <a href="https://www.instagram.com/justhairextensions4u/" className="insta" target="_blank" rel="noreferrer"> <BsInstagram className="icons"/> </a> 
             <BsTwitter className="icons"/>
             <BsYoutube className="icons"/>
     
