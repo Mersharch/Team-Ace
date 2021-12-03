@@ -27,7 +27,7 @@ function SignUp() {
 
         console.log(User);
 
-        axios.post('https://justhairandfashionwear.herokuapp.com/users/add', User)
+        axios.post('https://justhairandfashionwear.herokuapp.com/users/addUser', User)
             .then(res => { console.log(res.data); setSuccess(res.data); });
 
         setFirstname("");

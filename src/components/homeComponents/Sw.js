@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 function Sw() {
     return (
         <div className="Sw-Section">
-            <h1><Link to="/hair" className="sw-text"> Shop Wigs </Link></h1>
+            <h1><Link to="/hair" className="sw-text"> Shop Hair </Link></h1>
             <div className="images">
 
                 <img src="https://images.unsplash.com/photo-1608877607386-8698047d65a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8M3xLT0Z3amJ6WkJVVXx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="image1" className="swimg1" />
