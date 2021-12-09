@@ -1,36 +1,44 @@
-.wigs-div{
-    display: flex;
-
+.hair-div{
+    padding-inline: 5%;
+    
 }
 
-.hsidebar {
-    background-color: rgb(26, 25, 25);
-    height: 695px;
-    max-height: 900px;
-    position: fixed;
-    justify-content: center;
-    padding-inline: 3%;
+.hnav {
+    margin-top: -27px;
 }
 
 
-.wigs {
-    color: white;
+.hair {
+    color: black;
+    font-size: 2.4rem;
 }
 
 .hul {
     list-style-type: none;
-    width: fit-content;
     padding: 0;
-    margin-top: 10%;
+    display: flex;
+    justify-content: center;
 }
 
 .hli{
     list-style: none;
-    margin-top: 70%;
+    margin-left: 6%;
+
+}
+
+.hul:nth-child(1) {
+    margin-left: 0;
 }
 
 .hlinks {
     text-decoration: none;
-    font-size: 1.3rem;
-    color: goldenrod;
+    color: black;
+    font-size: 1.5rem;
+
+}
+
+.hcards-container {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    justify-content: space-between;
 }

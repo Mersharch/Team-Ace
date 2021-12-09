@@ -8,26 +8,31 @@ import Card from '../components/prods/card';
 function Hair() {
 
   return (
-    <div className="wigs-div">
-      <div className="hsidebar">
-        <h1 className="wigs">HAIR</h1>
+    <div className="hair-div">
+      
 
-        <div className="hnav">
-          <ul className="hul">
-            <li className="hli"><Link to="#human-hair" className="hlinks">Human Hair</Link></li>
-            <li className="hli"><Link to="#wigs" className="hlinks">Wigs Hair</Link></li>
-            <li className="hli"><Link to="#Hair Bundle" className="hlinks">Hair Bundles</Link></li>
+      <h1 className="hair">HAIR</h1>
 
-          </ul>
-        </div>
-
+      <div className="hnav">
+        <ul className="hul">
+          <li className="hli"><Link to="#human-hair" className="hlinks">Human Hair</Link></li>
+          <li className="hli"><Link to="#wigs" className="hlinks">Wigs </Link></li>
+          <li className="hli"><Link to="#Hair Bundle" className="hlinks">Hair Bundles</Link></li>
+        </ul>
       </div>
 
-      <div className="wigs-container">
+      <div className="hcards-container">
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
         <Card />
 
-        
       </div>
+        
     </div>
   );
 }
